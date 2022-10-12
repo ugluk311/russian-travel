@@ -1,0 +1,33 @@
+.gallery__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 213px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .gallery__image {
+    max-height: 225px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .gallery__image {
+    max-height: 264px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .gallery__image {
+    max-height: 216px;
+  }
+
+}
