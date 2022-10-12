@@ -2,3 +2,12 @@
 @import url(../vendor/fonts/fonts.css);
 
 
+@import url(../blocks/body/body.css);
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__language/header__language.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/button-language/button-language.css);
+@import url(../blocks/button-language/_active/button-language_active.css);
+

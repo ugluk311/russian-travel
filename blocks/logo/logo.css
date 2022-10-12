@@ -1,0 +1,25 @@
+.logo {
+  display: block;
+  width: 176px;
+  height: 52px;
+  background-image: url(../../images/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo:hover, .logo:focus {
+  opacity: .8;
+}
+
+.logo:active{
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 142px;
+    height: 42px;
+  }
+}
