@@ -8,6 +8,7 @@
   background-size: cover;
   text-decoration: none;
   cursor: pointer;
+  transition: opacity .4s ease;
 }
 .logo:hover, .logo:focus {
   opacity: .8;
