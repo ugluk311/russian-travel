@@ -48,3 +48,14 @@
 @import url(../blocks/travel/__text/travel__text.css);
 
 
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/nav/nav.css);
+
+@import url(../blocks/nav-list/nav-list.css);
+@import url(../blocks/nav-list/__item/nav-list__item.css);
+@import url(../blocks/nav-list/__link/nav-list__link.css);
+
+@import url(../blocks/copyright/copyright.css);
+
+
