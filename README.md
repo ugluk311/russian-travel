@@ -3,6 +3,7 @@
 ### Обзор
 * Краткое описание
 * Используемые технологии
+* [Посмотреть проект на github-pages](https://ugluk311.github.io/russian-travel/)
 
 
 **Краткое описание**
@@ -13,4 +14,7 @@
 * HTML
 * CSS
 * Методология БЭМ-nested
+* Семантика, responsive, pixel-perfect
 
+**Посмотреть проект на github-pages**
+[https://ugluk311.github.io/russian-travel/](https://ugluk311.github.io/russian-travel/)
