@@ -16,6 +16,8 @@
   .travel__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
+    margin-bottom: 16px;
   }
 
 }

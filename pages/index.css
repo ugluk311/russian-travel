@@ -4,6 +4,8 @@
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/centering/centering.css);
+@import url(../blocks/centering-small/centering-small.css);
 
 
 @import url(../blocks/header/header.css);
