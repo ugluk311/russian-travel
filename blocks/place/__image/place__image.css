@@ -22,11 +22,3 @@
   }
 
 }
-
-@media screen and (max-width: 650px) {
-
-  .place__image {
-    max-height: 320px;
-  }
-
-}

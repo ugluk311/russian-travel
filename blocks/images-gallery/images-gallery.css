@@ -1,13 +1,14 @@
-.centering {
-  box-sizing: border-box;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 48px;
+@media screen and (max-width: 1024px) {
+
+  .images-gallery {
+    padding: 0 48px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
 
-  .centering {
+  .images-gallery {
     padding: 0 24px;
   }
 
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 480px) {
 
-  .centering {
+  .images-gallery {
     padding: 0 16px;
   }
 

@@ -7,27 +7,38 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="body">
- <div class="root centering">
     <header class="header">
       <a href="./" class="logo">
       </a>
-      <div class="header__language">
-        <button class="button-language button-language_active" aria-label="Включить русский язык">Ru</button>
-        <button class="button-language" aria-label="Включить английский язык">En</button>
-      </div>
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a href="#" class="header__language-link header__language-link_active">Ru</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#" class="header__language-link">En</a>
+        </li>
+      </ul>
     </header>
     <main class="content">
-        <section class="lead centering-small">
+        <section class="lead">
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <div class="lead__image"></div>
-          <p class="lead__image-caption">ваша полка — верхняя</p>
+          <figure class="lead__image-wrap">
+            <picture>
+              <source srcset="./images/lead-image-320.jpg" media="(max-width: 320px)">
+              <source srcset="./images/lead-image-768.jpg" media="(max-width: 768px)">
+              <source srcset="./images/lead-image-1024.jpg" media="(max-width: 1024px)">
+              <img class="lead__image" src="./images/lead-image.jpg"
+                 alt="маршрут путешествия">
+            </picture>
+            <figcaption class="lead__image-caption">ваша полка — верхняя</figcaption>
+        </figure>
         </section>
 
-        <section class="intro centering-small">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
+        <section class="intro">
+          <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
           <p class="intro__description">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
             но только 36% планируют провести отпуск в родной стране.
@@ -44,72 +55,72 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-item">
-              Часовых поясов 11
+              Часовых поясов <span class="intro__list-item-value">11</span>
             </li>
             <li class="intro__list-item">
-              Объектов природного наследия ЮНЕСКО 12
+              Объектов природного наследия ЮНЕСКО <span class="intro__list-item-value">12</span>
             </li>
             <li class="intro__list-item">
-              Объектов культурного наследия ЮНЕСКО 16
+              Объектов культурного наследия ЮНЕСКО <span class="intro__list-item-value">16</span>
             </li>
             <li class="intro__list-item">
-              Природных заповедников 105
+              Природных заповедников <span class="intro__list-item-value">105</span>
             </li>
             <li class="intro__list-item">
-              Аэропортов 241
+              Аэропортов <span class="intro__list-item-value">241</span>
             </li>
           </ul>
         </section>
 
-        <ul class="gallery">
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-01.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-02.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-03.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-04.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-05.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-06.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-07.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-08.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-09.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-10.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-11.jpg" alt="Фото">
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./images/gallery/img-12.jpg" alt="Фото">
-          </li>
-        </ul>
+        <section class="images-gallery">
+          <ul class="gallery">
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-01.jpg" alt="Вид из окна поезда">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-02.jpg" alt="снежные горы и облака">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-03.jpg" alt="Поле со стогами">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-04.jpg" alt="Еловый лес">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-05.jpg" alt="Колесо на льду">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-06.jpg" alt="Пляж и горы">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-07.jpg" alt="Гора на горизонте">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-08.jpg" alt="Пешеходный переход на стройке">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-09.jpg" alt="Предгория">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-10.jpg" alt="Горная долина">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-11.jpg" alt="Утёс и океан">
+            </li>
+            <li class="gallery__item">
+              <img class="gallery__image" src="./images/gallery/img-12.jpg" alt="горный пик в тумане">
+            </li>
+          </ul>
+        </section>
 
-        <div class="places centering-small">
+        <section class="places">
           <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__link-wrap">
               <span class="place__link-title">URL</span>
               <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
             </div>
-            <div class="place__image-wrap">
-              <img src="./images/places/img-01.jpg" alt="Фото места" class="place__image">
-            </div>
+            <img src="./images/places/img-01.jpg" alt="Вид на Куршскую дугу" class="place__image">
             <div class="place__text">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -132,9 +143,7 @@
               <span class="place__link-title">URL</span>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
             </div>
-            <div class="place__image-wrap">
-              <img src="./images/places/img-02.jpg" alt="Фото места" class="place__image">
-            </div>
+            <img src="./images/places/img-02.jpg" alt="Виды Кольского полуострова" class="place__image">
             <div class="place__text">
               <p class="place__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская тундра,
@@ -157,9 +166,7 @@
               <span class="place__link-title">URL</span>
               <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
             </div>
-            <div class="place__image-wrap">
-              <img src="./images/places/img-03.jpg" alt="Фото места" class="place__image">
-            </div>
+            <img src="./images/places/img-03.jpg" alt="Алтайские деревья" class="place__image">
             <div class="place__text">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь из-за гор:
@@ -175,25 +182,24 @@
               </p>
             </div>
           </article>
+
           <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__link-wrap">
               <span class="place__link-title">URL</span>
-              <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
+              <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile/</a>
             </div>
-            <div class="place__image-wrap">
-              <img src="./images/places/img-04.jpg" alt="Фото места" class="place__image">
-            </div>
+            <img src="./images/places/img-04.jpg" alt="Карельский лесное озеро" class="place__image">
             <div class="place__text">
               <p class="place__paragraph">
-                Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это
-                самый большой источник пресной воды и одно из красивейших мест в России.
+                Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой
+                источник пресной воды и одно из красивейших мест в России.
               </p>
               <p class="place__paragraph">
-                Конечно, это всё так. Но Байкал ещё идеальное место&nbsp;для соревнований по
-                скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и
-                тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года
-                на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+                Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид
+                спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую
+                скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой
+                рекорд — 197.011 км/ч.
               </p>
             </div>
           </article>
@@ -203,9 +209,7 @@
               <span class="place__link-title">URL</span>
               <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
             </div>
-            <div class="place__image-wrap">
-              <img src="./images/places/img-05.jpg" alt="Фото места" class="place__image">
-            </div>
+            <img src="./images/places/img-05.jpg" alt="Карельский лесное озеро" class="place__image">
             <div class="place__text">
               <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -217,15 +221,14 @@
                 паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут
                 хозяин.
               </p>
-
             </div>
           </article>
 
 
-        </div>
+        </section>
         <section class="travel">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="travel__link" target="_blank">
-            <h3 class="travel__title">До Байкала «на&nbsp;собаках»</h3>
+            <h2 class="travel__title">До Байкала «на&nbsp;собаках»</h2>
             <p class="travel__text">
               По мотивам учебной темы о Транссибе — путешествие
               от столицы до Байкала на электричках.
@@ -234,7 +237,7 @@
         </section>
     </main>
     <footer class="footer">
-      <nav class="nav">
+      <nav class="foote__nav">
         <ul class="nav-list">
           <li class="nav-list__item">
             <a href="https://yandex.ru/maps" class="nav-list__link" target="_blank">Карты</a>
@@ -253,10 +256,9 @@
           </li>
         </ul>
       </nav>
-      <p class="copyright">
+      <p class="footer__copyright">
         © 2022. Евгений Фадеев
       </p>
     </footer>
- </div>
 </body>
 </html>

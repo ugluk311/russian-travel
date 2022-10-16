@@ -11,4 +11,18 @@
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
 
+  .lead__image-caption {
+    padding: 0 24px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .lead__image-caption {
+    padding: 0 16px;
+  }
+
+}

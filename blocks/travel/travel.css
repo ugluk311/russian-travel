@@ -23,22 +23,3 @@
 .travel:hover::before {
   opacity: .8;
 }
-
-@media screen and (max-width: 1024px) {
-
-  .travel {
-    width: auto;
-    margin-left: -24px;
-    margin-right: -24px;
-  }
-
-}
-
-@media screen and (max-width: 480px) {
-
-  .travel {
-    margin-left: -16px;
-    margin-right: -16px;
-  }
-
-}

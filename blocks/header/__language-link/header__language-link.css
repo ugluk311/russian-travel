@@ -1,4 +1,4 @@
-.button-language {
+.header__language-link {
   margin: 0;
   padding: 0;
   border: none;
@@ -14,17 +14,17 @@
   transition: opacity .4s ease;
 }
 
-.button-language:hover, .button-language:focus {
+.header__language-link:hover, .header__language-link:focus {
   opacity: .8;
 }
 
-.button-language:active{
+.header__language-link:active{
   opacity: 1;
 }
 
 @media screen and (max-width: 480px) {
 
-  .button-language {
+  .header__language-link {
     font-size: 18px;
     line-height: 20px;
   }

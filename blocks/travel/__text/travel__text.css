@@ -1,7 +1,7 @@
 .travel__text {
   margin: 0;
   max-width: 360px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,7 +10,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
 
   .travel__text {
     font-size: 14px;

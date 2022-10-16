@@ -1,35 +1,9 @@
 .lead__image {
   display: block;
+  max-width: 984px;
+  max-height: 615px;
   width: 100%;
-  min-height:615px;
-  /* background-color: #111; */
-  background-image: url(../../../images/lead-image.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
-@media screen and (max-width: 1024px) {
-
-  .lead__image {
-    min-height:580px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .lead__image {
-    min-height:480px;
-  }
-
-}
-
-@media screen and (max-width: 480px) {
-
-  .lead__image {
-    min-height:200px;
-  }
-
-}
