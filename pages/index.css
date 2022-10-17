@@ -28,10 +28,12 @@
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list-item-value/intro__list-item-value.css);
 
-@import url(../blocks/images-gallery/images-gallery.css);
+
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);

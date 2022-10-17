@@ -1,16 +1,24 @@
-.gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
+@media screen and (max-width: 1024px) {
+
+  .gallery {
+    padding: 0 48px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .gallery {
+    padding: 0 24px;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
 
   .gallery {
-    gap: 12px;
+    padding: 0 16px;
   }
 
 }
+
